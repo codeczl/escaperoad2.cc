@@ -105,9 +105,9 @@ export const Navigation = ({ categories }: navigationProp ) => {
               className="block"
               width={size}
               height={size}
-              alt="RobloxCode"
+              alt="Escape Road 2"
             />
-            <span className="inline-block font-bold">Roblox Code</span>
+            <span className="inline-block font-bold">Escape Road 2</span>
           </Link>
           <nav className="hidden md:flex gap-6">
             <NavigationMenu>
@@ -154,7 +154,7 @@ export const Navigation = ({ categories }: navigationProp ) => {
                             href="/"
                           >
                             <div className="mb-2 mt-4 text-lg font-medium">
-                              Roblox Code
+                              Escape Road 2
                             </div>
                             <p className="text-xs leading-tight text-muted-foreground">
                               {t('articleDescription')}
@@ -163,16 +163,16 @@ export const Navigation = ({ categories }: navigationProp ) => {
                         </NavigationMenuLink>
                       </li>
                       <ListItem 
-                        href="/article/latest-roblox-codes-2025" 
-                        title={t('latestCodesArticle')}
+                        href="/article/escape-road-2-guide" 
+                        title={t('latestArticle')}
                       >
-                        {t('latestCodesDescription')}
+                        {t('latestDescription')}
                       </ListItem>
                       <ListItem 
-                        href="/article/roblox-codes-usefulness-secrets" 
-                        title={t('secretsArticle')}
+                        href="/article/escape-road-2-newbie-guide" 
+                        title={t('strategyArticle')}
                       >
-                        {t('secretsDescription')}
+                        {t('strategyDescription')}
                       </ListItem>
                       <ListItem 
                         href="/article" 

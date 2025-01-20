@@ -32,17 +32,17 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: 'Roblox Code | Latest Promo Codes & Redeem Guide',
-    template: '%s | Roblox Code'
+    default: 'Escape Road 2 | Action Racing Game',
+    template: '%s | Escape Road 2'
   },
-  description: 'Find and redeem the latest Roblox promo codes. Get free items, accessories, and in-game bonuses. Updated daily with working codes and step-by-step redemption guides.',
-  authors: { name: 'robloxcode.net', url: 'https://robloxcode.net/' },
-  keywords: 'Roblox code, redeem Roblox codes, Roblox promo codes, Roblox game codes, free Roblox items',
+  description: 'Escape Road 2 is an action-packed retro-style racing game where players evade relentless police chases through dynamic cityscapes.',
+  authors: { name: 'escaperoad2.cc', url: 'https://escaperoad2.cc/' },
+  keywords: 'Escape Road 2, retro racing game, police chase, driving skills, pixel art',
   alternates: {
-    canonical: "https://robloxcode.net/",
+    canonical: "https://escaperoad2.cc/",
     languages: {
-      "en": "https://robloxcode.net/en",
-      "zh": "https://robloxcode.net/zh",
+      "en": "https://escaperoad2.cc/en",
+      "zh": "https://escaperoad2.cc/zh",
     }
   },
   icons: [
@@ -60,10 +60,10 @@ export const metadata: Metadata = {
     title: "Roblox Code"
   },
   ...generateMetaTags({
-    title: 'Roblox Code | Latest Promo Codes & Redeem Guide',
-    description: 'Find and redeem the latest Roblox promo codes. Get free items, accessories, and in-game bonuses. Updated daily with working codes and step-by-step redemption guides.',
-    url: 'https://robloxcode.net',
-    imageUrl: 'https://robloxcode.net/og-image.jpg'
+    title: 'Escape Road 2 | Action Racing Game',
+    description: 'Escape Road 2 is an action-packed retro-style racing game where players evade relentless police chases through dynamic cityscapes.',
+    url: 'https://escaperoad2.cc',
+    imageUrl: 'https://escaperoad2.cc/og-image.jpg'
   }),
 }
 

@@ -1,8 +1,8 @@
 {
-  "name": "robloxcode",
+  "name": "escaperoad2",
   "version": "1.0.0",
   "private": true,
-  "description": "Your ultimate guide for Roblox codes, promo codes and redeem tips",
+  "description": "Escape Road 2 is an action-packed retro-style racing game where players evade relentless police chases through dynamic cityscapes.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

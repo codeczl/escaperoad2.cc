@@ -1,63 +1,70 @@
 {
   "home": {
-    "meta_title": "Roblox Code | Latest Promo Codes & Redeem Guide",
-    "meta_description": "Discover the latest Roblox codes, how to redeem them, and tips for using them effectively to maximize your gaming experience.",
-    "h1": "Roblox Code",
-    "h2": "Latest Roblox Codes--Your Ultimate Guide to Promo Codes",
-    "intro": "Roblox players love finding new ways to enhance their gaming experience, and Roblox codes are the perfect tool for this. Below is a list of the latest promo codes you can use:",
-    "latest_codes": { 
-      "title": "Latest Roblox Codes",
-      "code1": "SPIDERCOLA: Redeem for a Spider Cola shoulder accessory.",
-      "code2": "TWEETROBLOX: Redeem for a free bird shoulder pet.",
-      "update_note": "Stay updated with the latest Roblox codes by bookmarking this page!"
+    "meta_title": "Escape Road 2 - Thrilling Retro Racing Adventure",
+    "meta_description": "Escape Road 2 is an action-packed retro-style racing game where players evade relentless police chases through dynamic cityscapes.",
+    "h1": "Escape Road 2",
+    "h2": "Thrilling Retro Racing Adventure",
+    "intro": "Drive, escape, and outrun the cops in this action-packed racing game!",
+    
+    "introduction_section": {
+      "title": "Game Introduction",
+      "description": "Escape Road 2 is the sequel to the popular Escape Road game, delivering epic police chases to players. Drive, escape, and outrun the cops! Updated with new vehicles, environments, and features! Not simply a game, but thanks to it, you can also test your driving prowess, especially your agility at every stressful moment."
     },
-    "how_to_redeem": {
-      "title": "How to Redeem Roblox Codes",
-      "intro": "Redeeming a Roblox code is simple. Follow these steps:",
-      "step1": "Log in to your Roblox account.",
-      "step2": "Go to the Redeem Codes page.",
-      "step3": "Enter the Roblox code in the box and click \"Redeem.\"",
-      "step4": "Enjoy your reward in the game!",
-      "note": "If the code doesn't work, double-check for typos or expired dates."
+    
+    "gameplay_section": {
+      "title": "Gameplay Mechanics",
+      "description": "In Escape Road 2, players must maneuver their vehicles to avoid the police's unrelenting pursuit. You must control the vehicle with the arrow keys or WASD keys in order to play Escape Road 2."
     },
-    "tips": {
-      "title": "Tips for Using Roblox Codes Effectively",
-      "intro": "To make the most of your Roblox codes:",
-      "tip1": "Check for new codes regularly as they can expire quickly.",
-      "tip2": "Follow Roblox's official social media accounts for exclusive codes.",
-      "tip3": "Use codes during special events to unlock limited-time items.",
-      "conclusion": "With these tips, you'll always be ready to maximize your rewards!"
+    
+    "tips_section": {
+      "title": "Tips and Strategies",
+      "tips": {
+        "driving": "Master Both Driving and Foot Skills: Be just as proficient in navigating on foot and in the water as you are behind the wheel.",
+        "environment": "Utilize the Environment: Take advantage of the city's terrain, using alleys, buildings, and even water to your advantage.",
+        "powerups": "Collect Power-Ups: Gather scattered coins and upgrades to improve the car's power.",
+        "skills": "Drive Skillfully: Make sharp turns to divert the attention of the police."
+      }
+    },
+    
+    "media_section": {
+      "title": "Media Content",
+      "description": "Watch the following gameplay walkthrough to learn expert techniques and strategies to beat every level:"
+    },
+    
+    "news_section": {
+      "title": "Latest News",
+      "description": "Stay tuned for the latest version updates and event announcements for Escape Road 2 to enhance your gaming experience!"
     }
   },
   "category": {
-    "meta_title": "Roblox Code Categories",
-    "meta_description": "Find all essential Roblox code categories and guides to enhance your gaming experience",
+    "meta_title": "Game Categories - Escape Road 2",
+    "meta_description": "Find all essential game categories and guides to enhance your Escape Road 2 gaming experience",
     "homeBtn": "Home",
-    "categoryBtn": "Category",
-    "h1": "Roblox Code Categories",
-    "h2": "Find All Roblox Codes You Need Here",
-    "h2description": "All Roblox codes are sorted by categories"
+    "categoryBtn": "Games",
+    "h1": "Game Categories",
+    "h2": "Find All Game Guides You Need Here",
+    "h2description": "All game guides are sorted by categories"
   },
   "article": {
-    "meta_title": "Articles - Roblox Code",
-    "meta_description": "Explore our collection of articles about Roblox codes and promo codes",
+    "meta_title": "Articles - Escape Road 2",
+    "meta_description": "Explore our collection of articles about Escape Road 2 gameplay and strategies",
     "h1": "Articles",
-    "h2": "Discover useful Roblox code guides and resources",
+    "h2": "Discover useful Escape Road 2 guides and resources",
     "homeBtn": "Home",
     "articleBtn": "Articles",
     "backToArticles": "Back to Articles"
   },
   "changelog": {
-    "meta_title": "Changelog - Roblox Code",
-    "meta_description": "Stay up to date with the latest updates on RobloxCode.net",
+    "meta_title": "Changelog - Escape Road 2",
+    "meta_description": "Stay up to date with the latest updates on Escape Road 2",
     "h1": "Changelog",
-    "h2": "Stay up to date with the latest updates on RobloxCode.net",
+    "h2": "Stay up to date with the latest updates on Escape Road 2",
     "homeBtn": "Home",
-    "changelogBtn": "Changelog"
+    "changelogBtn": "Updates"
   },
   "tools": {
-    "meta_description": "Find all essential Roblox codes and guides to enhance your gaming experience",
-    "h2_1": "All Roblox codes related to",
+    "meta_description": "Find all essential guides and tips to enhance your Escape Road 2 gaming experience",
+    "h2_1": "All guides related to",
     "h2_2": "",
     "homeBtn": "Home"
   },
@@ -70,26 +77,26 @@
   },
   "navigation": {
     "homeBtn": "Home",
-    "categoryBtn": "Categories",
-    "moreCategoryBtn": "More",
-    "moreCategoryDescription": "More Categories",
+    "categoryBtn": "Games",
+    "moreCategoryBtn": "More Games",
+    "moreCategoryDescription": "Explore more exciting games",
     "articleBtn": "Articles",
-    "articleDescription": "Your Ultimate Guide for Roblox Codes and Promo Codes",
-    "latestCodesArticle": "Latest Roblox Codes 2025",
-    "latestCodesDescription": "Get the latest Roblox promo codes and learn how to redeem them",
-    "secretsArticle": "Are Roblox Codes Really Useful?",
-    "secretsDescription": "Explore the true value of Roblox codes, uncovering how these promo codes impact player experiences",
+    "articleDescription": "Your Ultimate Guide for Escape Road 2",
+    "latestArticle": "Ultimate Guide and Gameplay Tips",
+    "latestDescription": "Learn how to achieve high scores and avoid police pursuits in Escape Road 2",
+    "strategyArticle": "Newbie Guide: Quick Start Tips",
+    "strategyDescription": "Essential tips and tricks for Escape Road 2 beginners",
     "moreArticleBtn": "More Articles",
-    "moreArticleDescription": "Browse all articles about Roblox codes",
-    "changelogBtn": "Changelog"
+    "moreArticleDescription": "Browse all articles about Escape Road 2",
+    "changelogBtn": "Updates"
   },
   "footer": {
-    "description": "Your Ultimate Guide for Roblox Codes and Promo Codes",
+    "description": "Your Ultimate Guide for Escape Road 2 Game World",
     "quickLinks": "Quick Links",
     "home": "Home",
-    "category": "Categories",
+    "category": "Games",
     "article": "Articles",
-    "changelog": "Changelog",
+    "changelog": "Updates",
     "privacy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "legal": "Legal",
@@ -107,10 +114,10 @@
   },
 
     "meta": {
-      "og_title": "Roblox Code | Latest Promo Codes & Redeem Guide",
-      "og_description": "Find and redeem the latest Roblox promo codes. Get free items, accessories, and in-game bonuses. Updated daily with working codes and guides.",
-      "twitter_title": "Roblox Code | Latest Promo Codes",
-      "twitter_description": "Discover and redeem the latest Roblox promo codes. Updated daily!"
+      "og_title": "Escape Road 2 | Thrilling Retro Racing Adventure",
+      "og_description": "Escape Road 2 is an action-packed retro-style racing game where players evade relentless police chases through dynamic cityscapes.",
+      "twitter_title": "Escape Road 2 | Racing Adventure Game",
+      "twitter_description": "Join the adventure in Escape Road 2, where high-speed chases meet strategic gameplay!"
     },
   "latestCodesArticle": "Latest Roblox Codes 2025",
   "latestCodesDescription": "Get the latest Roblox promo codes and learn how to redeem them",

@@ -16,10 +16,10 @@
 [
   // A
   {
-    "name": "Official Sites",
-    "src": "Official.jsonc",
-    "link": "Official", 
-    "description": "Quick access to official websites"
+    "name": "More Games",
+    "src": "moregame.jsonc",
+    "link": "moregame", 
+    "description": "Discover and play more fun games"
   }
   // B
   // C

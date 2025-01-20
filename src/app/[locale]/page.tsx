@@ -29,12 +29,12 @@ type categoryType = {
 export default async function Home() {
   const locale = await getLocale();
   const t = await getTranslations('home');
-  // categories data
   const categories = getCategories(locale);
   const allPostsData = getSortedPostsData(locale).slice(0, 6)
   
   return (
-    <div className="container mx-auto py-12 space-y-16 ">
+    <div className="container mx-auto py-12 space-y-16">
+      {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center space-y-6">
         <h1 className="mx-auto max-w-3xl text-3xl font-bold lg:text-7xl tracking-tighter">
           {t("h1")}
@@ -43,49 +43,53 @@ export default async function Home() {
         <p className="mx-auto max-w-[700px] md:text-xl tracking-tight">
           {t("intro")}
         </p>
-        <div className='w-full px-2 pt-10 lg:w-1/2'>
-          <Search />
-        </div>
       </section>
 
-      {/* Latest Codes Section */}
-      <section id="latest-codes" className="space-y-6">
-        <h2 className="text-3xl font-bold">{t("latest_codes.title")}</h2>
-        <ul className="space-y-4">
-          <li>{t("latest_codes.code1")}</li>
-          <li>{t("latest_codes.code2")}</li>
-        </ul>
-        <p>{t("latest_codes.update_note")}</p>
+      {/* Introduction Section */}
+      <section id="introduction" className="space-y-6">
+        <h2 className="text-3xl font-bold">{t("introduction_section.title")}</h2>
+        <p>{t("introduction_section.description")}</p>
       </section>
 
-      {/* How to Redeem Section */}
-      <section id="how-to-redeem" className="space-y-6">
-        <h2 className="text-3xl font-bold">{t("how_to_redeem.title")}</h2>
-        <p>{t("how_to_redeem.intro")}</p>
-        <ol className="list-decimal list-inside space-y-2">
-          <li>{t("how_to_redeem.step1")}</li>
-          <li>{t("how_to_redeem.step2")}</li>
-          <li>{t("how_to_redeem.step3")}</li>
-          <li>{t("how_to_redeem.step4")}</li>
-        </ol>
-        <p>{t("how_to_redeem.note")}</p>
+      {/* Gameplay Section */}
+      <section id="gameplay" className="space-y-6">
+        <h2 className="text-3xl font-bold">{t("gameplay_section.title")}</h2>
+        <p>{t("gameplay_section.description")}</p>
       </section>
 
       {/* Tips Section */}
       <section id="tips" className="space-y-6">
-        <h2 className="text-3xl font-bold">{t("tips.title")}</h2>
-        <p>{t("tips.intro")}</p>
+        <h2 className="text-3xl font-bold">{t("tips_section.title")}</h2>
         <ul className="list-disc list-inside space-y-2">
-          <li>{t("tips.tip1")}</li>
-          <li>{t("tips.tip2")}</li>
-          <li>{t("tips.tip3")}</li>
+          <li>{t("tips_section.tips.driving")}</li>
+          <li>{t("tips_section.tips.environment")}</li>
+          <li>{t("tips_section.tips.powerups")}</li>
+          <li>{t("tips_section.tips.skills")}</li>
         </ul>
-        <p>{t("tips.conclusion")}</p>
+      </section>
+
+      {/* Media Section */}
+      <section id="media" className="space-y-6">
+        <h2 className="text-3xl font-bold">{t("media_section.title")}</h2>
+        <p>{t("media_section.description")}</p>
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/your_video_id" 
+          className="mx-auto"
+          allowFullScreen
+        />
+      </section>
+
+      {/* News Section */}
+      <section id="news" className="space-y-6">
+        <h2 className="text-3xl font-bold">{t("news_section.title")}</h2>
+        <p>{t("news_section.description")}</p>
       </section>
 
       <div className='border-t'></div>
       
-      {/* 保持原有的 ToolsList 和 ArticleList */}
+      {/* Keep existing ToolsList and ArticleList */}
       {categories.map((category: categoryType, index: React.Key | null | undefined) => (
         <ToolsList key={index} category={category} locale={locale} />
       ))}

@@ -16,10 +16,10 @@
 [
   // A
   {
-    "name": "官方网址",
-    "src": "Official.jsonc",
-    "link": "Official",
-    "description": "用于快速查看官方网址"
+    "name": "更多游戏",
+    "src": "moregame.jsonc",
+    "link": "moregame",
+    "description": "发现并体验更多有趣的游戏"
   }
   // B
   // C
