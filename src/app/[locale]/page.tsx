@@ -45,6 +45,21 @@ export default async function Home() {
         </p>
       </section>
 
+      {/* Game Section */}
+      <section className="w-full max-w-[1280px] mx-auto">
+        <div className="relative w-full aspect-video">
+          <iframe 
+            src="https://1games.io/game/escape-road-2/" 
+            className="absolute top-0 left-0 w-full h-full"
+            scrolling="no"
+            frameBorder="0"
+            allowFullScreen
+            title="Escape Road 2"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
       {/* Introduction Section */}
       <section id="introduction" className="space-y-6">
         <h2 className="text-3xl font-bold">{t("introduction_section.title")}</h2>
@@ -72,13 +87,6 @@ export default async function Home() {
       <section id="media" className="space-y-6">
         <h2 className="text-3xl font-bold">{t("media_section.title")}</h2>
         <p>{t("media_section.description")}</p>
-        <iframe 
-          width="560" 
-          height="315" 
-          src="https://www.youtube.com/embed/your_video_id" 
-          className="mx-auto"
-          allowFullScreen
-        />
       </section>
 
       {/* News Section */}
