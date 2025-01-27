@@ -2,7 +2,7 @@
 
 import Script from "next/script";
 
-const GA_MEASUREMENT_ID = 'G-GGV7B7Y7DK';
+const GA_MEASUREMENT_ID = 'G-5HRZ7B7Z17';
 
 export function GoogleAnalyticsScript() {
   return (
